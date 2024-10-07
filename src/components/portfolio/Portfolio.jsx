@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/car.png'
+import IMG2 from '../../assets/api5.png'
+// import IMG3 from '../../assets/portfolio3.jpg'
+// import IMG4 from '../../assets/portfolio4.jpg'
+// import IMG5 from '../../assets/portfolio5.png'
+// import IMG6 from '../../assets/portfolio6.jpg'
 
 // do not use the images in production
 
@@ -13,45 +13,45 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency dashbord',
-    github: 'https://github.com',
-    demo: 'http://dribble.com/Alien_pixels'
+    title: 'Car Selling Plateform',
+    github: 'https://github.com/Fefe3434/car_hub',
+    demo: 'http://dribble.com'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Crypto Currency dashbord',
-    github: 'https://github.com',
-    demo: 'http://dribble.com/Alien_pixels'
+    title: 'Articles API',
+    github: 'https://github.com/Fefe3434/node_api_articles',
+    demo: 'http://dribble.com'
   },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'Crypto Currency dashbord',
-    github: 'https://github.com',
-    demo: 'http://dribble.com/Alien_pixels'
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Crypto Currency dashbord',
-    github: 'https://github.com',
-    demo: 'http://dribble.com/Alien_pixels'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Crypto Currency dashbord',
-    github: 'https://github.com',
-    demo: 'http://dribble.com/Alien_pixels'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Crypto Currency dashbord',
-    github: 'https://github.com',
-    demo: 'http://dribble.com/Alien_pixels'
-  },
+  // {
+  //   id: 3,
+  //   image: IMG3,
+  //   title: 'Crypto Currency dashbord',
+  //   github: 'https://github.com',
+  //   demo: 'http://dribble.com/Alien_pixels'
+  // },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: 'Crypto Currency dashbord',
+  //   github: 'https://github.com',
+  //   demo: 'http://dribble.com/Alien_pixels'
+  // },
+  // {
+  //   id: 5,
+  //   image: IMG5,
+  //   title: 'Crypto Currency dashbord',
+  //   github: 'https://github.com',
+  //   demo: 'http://dribble.com/Alien_pixels'
+  // },
+  // {
+  //   id: 6,
+  //   image: IMG6,
+  //   title: 'Crypto Currency dashbord',
+  //   github: 'https://github.com',
+  //   demo: 'http://dribble.com/Alien_pixels'
+  // },
 ]
 
 const Portfolio = () => {
