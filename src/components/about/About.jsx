@@ -24,24 +24,24 @@ const About = () => {
             <article className='about_card'>
               <FaAward className='about_icon' />
               <h5>Experience</h5>
-              <small>1+ years experience</small>
+              <small>3+ years experience</small>
             </article>
 
             <article className='about_card'>
               <FiUsers className='about_icon' />
               <h5>Clients</h5>
-              <small>300+ Clients Worldwide</small>
+              <small>20+ Clients Worldwide</small>
             </article>
 
             <article className='about_card'>
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
-              <small>80+ completed projects</small>
+              <small>10+ completed projects</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consectetur perferendis ut ratione architecto, quaerat dicta adipisci aliquam aperiam voluptatum tenetur nam tempore magnam beatae odio atque ipsa sunt rem?
+          I specialize in creating elegant, user-friendly web applications with a focus on performance and scalability. My passion for solving complex problems drives me to deliver high-quality digital experiences. If you're looking for a reliable and efficient partner for your next project, you are in the right place !
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's talk</a>
