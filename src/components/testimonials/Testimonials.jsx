@@ -3,7 +3,6 @@ import './testimonials.css'
 import AVTR1 from '../../assets/avatar_anonymous.png'
 import AVTR2 from '../../assets/avatar_anonymous.png'
 import AVTR3 from '../../assets/avatar_anonymous.png'
-import AVTR4 from '../../assets/avatar_anonymous.png'
 
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -13,14 +12,14 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-    avatar: AVTR1,
-    name: 'Asmaa E., CEO of EdenTreasures',
-    review: 'Working with Ferdaouss has been an absolute pleasure. She brought an unmatched level of professionalism and creativity to every project. Her ability to understand complex requirements and deliver high-quality solutions is impressive. She played a crucial role in our product development team, consistently meeting deadlines while maintaining attention to detail. We are truly grateful for her contributions to our team and would highly recommend her to any future employers.'
-  },
-  {
     avatar: AVTR2,
     name: 'Sebastien C., Chief Developper',
     review: 'Ferdaouss demonstrated exceptional skill in software development, particularly in database management and API integration. She not only met our high standards but often exceeded them, implementing efficient and scalable solutions. Her collaborative approach and dedication to continuous improvement have been an asset to our team. She would be an outstanding addition to any organization.'
+  },
+  {
+    avatar: AVTR1,
+    name: 'Asmaa E., CEO of EdenTreasures',
+    review: 'Working with Ferdaouss has been an absolute pleasure. She brought an unmatched level of professionalism and creativity to every project. Her ability to understand complex requirements and deliver high-quality solutions is impressive. She played a crucial role in our product development team, consistently meeting deadlines while maintaining attention to detail. We are truly grateful for her contributions to our team and would highly recommend her to any future employers.'
   },
   {
     avatar: AVTR3,

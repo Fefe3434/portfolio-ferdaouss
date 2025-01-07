@@ -44,12 +44,12 @@ const Contact = () => {
             <h5>Get To Know Me Better</h5>
             <a href="https://www.linkedin.com/in/ferdaouss-adlani/" target='_blank'>Send a message</a>
           </article>
-          <article className='contact_option'>
+          {/*<article className='contact_option'>
             <FaWhatsapp className='contact_option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+33123456789</h5>
             <a href="https://api.whatsapp.com/send?phone_33123456789" target='_blank'>Send a message</a>
-          </article>
+          </article>*/}
         </div>
         {/* END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>

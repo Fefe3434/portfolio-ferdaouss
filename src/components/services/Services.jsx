@@ -86,10 +86,7 @@ const Services = () => {
               <BiCheck className='service_list-icon' />
               <p>Providing maintenance and updates to ensure smooth operation of stock management systems.</p>
             </li>
-            <li>
-              <BiCheck className='service_list-icon' />
-              <p>Providing data visualizations that assist in identifying trends and optimizing inventory processes.</p>
-            </li>
+ 
           </ul>
         </article>
 
