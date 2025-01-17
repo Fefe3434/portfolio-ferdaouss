@@ -14,7 +14,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 400px; 
+  height: 400px;
+  overflow: hidden; 
 }
 
 .portfolio_item:hover {
@@ -34,16 +35,17 @@
 }
 
 .portfolio_item-image img {
-  width: auto;
+  width: 100%;
   height: 100%;
-  object-fit: contain; 
+  object-fit: cover; 
 }
+
 
 .portfolio_item h3 {
   margin: 1.2rem 0 1rem;
   text-align: center;
   font-size: 1rem;
-  flex-grow: 1; 
+  flex-grow: 1;
 }
 
 .portfolio_item-cta {
