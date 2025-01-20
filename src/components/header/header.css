@@ -43,7 +43,7 @@ header {
 }
 
 /* ================================ME===================== */
- .me {
+.me {
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   height: 30rem;
@@ -52,8 +52,11 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
-} 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 /* ================================SCROLL DOWN===================== */
