@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './nav.css';
 import { IoMdHome } from 'react-icons/io';
-import { LuUser2 } from 'react-icons/lu';
+import { LuUser } from 'react-icons/lu';
 import { BiBook } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
 import { TbMessage } from 'react-icons/tb';
@@ -48,7 +48,7 @@ const Nav = () => {
         onClick={() => setActiveNav('#about')}
         className={activeNav === '#about' ? 'active' : ''}
       >
-        <LuUser2 />
+        <LuUser />
       </a>
       <a
         href="#experience"
