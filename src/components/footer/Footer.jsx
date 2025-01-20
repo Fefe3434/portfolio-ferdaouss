@@ -16,17 +16,16 @@ const Footer = () => {
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#potfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        {/* <li><a href="#testimonials">Testimonials</a></li> */}
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#">Home</a></li>
       </ul>
 
-      <div className="footer_socials">
+      {/* <div className="footer_socials">
         <a href="https/facebook.com"><FaFacebookF/></a>
         <a href="https/instagram.com"><FiInstagram/></a>
         <a href="https/twitter.com"><IoLogoTwitter/></a>
-      </div>
+      </div> */}
 
       <div className="footer_copyright">
         <small>&copy; Ferdaouss Adlani. All rights reserved.</small>

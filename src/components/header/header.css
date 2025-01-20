@@ -71,15 +71,17 @@ header {
 
 /* ===============================MEDIA QUERIES (MEDIUM DEVICES)================== */
 
-@media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
-}
-
 @media screen and (max-width: 600px) {
+  .me {
+    width: 14rem;
+    height: 18rem;
+    left: calc(50% - 7rem);
+    margin-top: 2rem;
+  }
+
   header {
-    height: 100vh;
+    height: auto;
+    padding-top: 5rem;
   }
 
   .header_socials,
