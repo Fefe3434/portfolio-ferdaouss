@@ -4,6 +4,7 @@ import IMG1 from '../../assets/car-img-2.png'
 import IMG4 from '../../assets/car.png'
 import IMG2 from '../../assets/api5.png'
 import IMG3 from '../../assets/chat-room-img.png'
+import IMG5 from '../../assets/ecommerce-app.png'
 
 
 const data = [
@@ -27,6 +28,13 @@ const data = [
     image: IMG2,
     title: 'Articles API',
     github: 'https://github.com/Fefe3434/node_api_articles',
+    // demo: 'http://dribble.com'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Ecommerce App - MERN',
+    github: 'https://github.com/Fefe3434/shopping-mern',
     // demo: 'http://dribble.com'
   },
   {
